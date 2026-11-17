@@ -1,0 +1,964 @@
+1.5291 	ERROR 	Plugin `psychopy-cedrus` entry point requires module `psychopy_cedrus`, but it cannot be imported.
+10.1410 	INFO 	Loaded monitor calibration from ['2026_09_03 15:17']
+11.0979 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1470, 956]. Using actual size
+11.2101 	INFO 	Using renderer 'Apple M2' for graphics
+11.2101 	INFO 	OpenGL version supported by driver is 2..
+11.2542 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x1790dda50>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x1790dda90>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x17a5cabd0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2940, 1912]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.2542 	EXP 	window1: backgroundImage = ''
+11.2542 	EXP 	window1: backgroundFit = 'none'
+11.4446 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.4446 	EXP 	window1: recordFrameIntervals = False
+11.6718 	EXP 	window1: recordFrameIntervals = True
+13.3384 	EXP 	window1: recordFrameIntervals = False
+13.3384 	EXP 	Screen (0) actual frame rate measured at 59.94Hz
+14.3809 	INFO 	keyboard.Keyboard is using ptb backend.
+14.3809 	EXP 	FINAL JERSILD: status = STARTED
+14.4312 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.4325 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+14.4327 	EXP 	Created taskcue = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='taskcue', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.4330 	EXP 	Created numbertext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='numbertext', opacity=1, ori=0.0, pos=array([ 0.  , -0.05]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.4354 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for participating!', units='height', win=Window(...), wrapWidth=1)
+0.0365 	INFO 	Keyboard events cleared
+0.0364 	EXP 	text: autoDraw = True
+8.0639 	DATA 	Keypress: space
+8.0804 	EXP 	Device response: <KeyPress from None: t=8.057209208374843, value=space, duration=None>
+8.0880 	EXP 	Imported /Users/zealshah/Downloads/jersild updated conditions.xlsx as conditions, 52 conditions, 6 params
+8.0884 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'trial_no': 1.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 6.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+8.1030 	EXP 	text: autoDraw = False
+8.1030 	EXP 	text_2: autoDraw = True
+8.1699 	EXP 	Device response: <KeyPress from None: t=8.057209208374843, value=space, duration=0.0980193333234638>
+8.6030 	INFO 	Keyboard events cleared
+8.6030 	EXP 	text_2: autoDraw = False
+8.6030 	EXP 	taskcue: height = np.float64(0.05)
+8.6030 	EXP 	taskcue: height = np.float64(0.05)
+8.6030 	EXP 	taskcue: height = np.float64(0.05)
+8.6030 	EXP 	taskcue: text = 'ODD / EVEN'
+8.6030 	EXP 	numbertext: height = np.float64(0.05)
+8.6030 	EXP 	numbertext: height = np.float64(0.05)
+8.6030 	EXP 	numbertext: height = np.float64(0.05)
+8.6030 	EXP 	numbertext: text = 6.0
+8.6030 	EXP 	taskcue: autoDraw = True
+8.6030 	EXP 	numbertext: autoDraw = True
+9.7941 	DATA 	Keypress: k
+9.8034 	EXP 	Device response: <KeyPress from None: t=9.790875958336983, value=k, duration=None>
+9.8035 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'trial_no': 2.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 5.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+9.8198 	EXP 	taskcue: autoDraw = False
+9.8198 	EXP 	numbertext: autoDraw = False
+9.8198 	EXP 	text_2: autoDraw = True
+9.8700 	EXP 	Device response: <KeyPress from None: t=9.790875958336983, value=k, duration=0.0761941249947995>
+10.3198 	INFO 	Keyboard events cleared
+10.3197 	EXP 	text_2: autoDraw = False
+10.3197 	EXP 	text_2: autoDraw = False
+10.3197 	EXP 	taskcue: text = 'ODD / EVEN'
+10.3197 	EXP 	numbertext: height = np.float64(0.05)
+10.3197 	EXP 	numbertext: height = np.float64(0.05)
+10.3197 	EXP 	numbertext: height = np.float64(0.05)
+10.3197 	EXP 	numbertext: text = 5.0
+10.3197 	EXP 	taskcue: autoDraw = True
+10.3197 	EXP 	numbertext: autoDraw = True
+11.2533 	EXP 	Device response: <KeyPress from None: t=11.247885416669305, value=a, duration=None>
+11.2534 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'trial_no': 3.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 6.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+11.2562 	DATA 	Keypress: a
+11.2697 	EXP 	taskcue: autoDraw = False
+11.2697 	EXP 	numbertext: autoDraw = False
+11.2697 	EXP 	text_2: autoDraw = True
+11.3700 	EXP 	Device response: <KeyPress from None: t=11.247885416669305, value=a, duration=0.12033079168759286>
+11.7697 	INFO 	Keyboard events cleared
+11.7697 	EXP 	text_2: autoDraw = False
+11.7697 	EXP 	text_2: autoDraw = False
+11.7697 	EXP 	taskcue: text = 'ODD / EVEN'
+11.7697 	EXP 	numbertext: height = np.float64(0.05)
+11.7697 	EXP 	numbertext: height = np.float64(0.05)
+11.7697 	EXP 	numbertext: height = np.float64(0.05)
+11.7697 	EXP 	numbertext: text = 6.0
+11.7697 	EXP 	taskcue: autoDraw = True
+11.7697 	EXP 	numbertext: autoDraw = True
+13.3757 	DATA 	Keypress: k
+13.3865 	EXP 	Device response: <KeyPress from None: t=13.37268783338368, value=k, duration=None>
+13.3865 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'trial_no': 4.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 8.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+13.4031 	EXP 	taskcue: autoDraw = False
+13.4031 	EXP 	numbertext: autoDraw = False
+13.4031 	EXP 	text_2: autoDraw = True
+13.4700 	EXP 	Device response: <KeyPress from None: t=13.37268783338368, value=k, duration=0.08539654163178056>
+13.9031 	INFO 	Keyboard events cleared
+13.9030 	EXP 	text_2: autoDraw = False
+13.9030 	EXP 	text_2: autoDraw = False
+13.9030 	EXP 	taskcue: text = 'ODD / EVEN'
+13.9030 	EXP 	numbertext: height = np.float64(0.05)
+13.9030 	EXP 	numbertext: height = np.float64(0.05)
+13.9030 	EXP 	numbertext: height = np.float64(0.05)
+13.9030 	EXP 	numbertext: text = 8.0
+13.9030 	EXP 	taskcue: autoDraw = True
+13.9030 	EXP 	numbertext: autoDraw = True
+14.9007 	DATA 	Keypress: k
+14.9032 	EXP 	Device response: <KeyPress from None: t=14.89078754169168, value=k, duration=None>
+14.9033 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'trial_no': 5.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 9.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+14.9197 	EXP 	taskcue: autoDraw = False
+14.9197 	EXP 	numbertext: autoDraw = False
+14.9197 	EXP 	text_2: autoDraw = True
+14.9865 	EXP 	Device response: <KeyPress from None: t=14.89078754169168, value=k, duration=0.09221979166613892>
+15.4197 	INFO 	Keyboard events cleared
+15.4196 	EXP 	text_2: autoDraw = False
+15.4196 	EXP 	text_2: autoDraw = False
+15.4196 	EXP 	taskcue: text = 'ODD / EVEN'
+15.4196 	EXP 	numbertext: height = np.float64(0.05)
+15.4196 	EXP 	numbertext: height = np.float64(0.05)
+15.4196 	EXP 	numbertext: height = np.float64(0.05)
+15.4196 	EXP 	numbertext: text = 9.0
+15.4196 	EXP 	taskcue: autoDraw = True
+15.4196 	EXP 	numbertext: autoDraw = True
+15.8323 	DATA 	Keypress: k
+15.8367 	EXP 	Device response: <KeyPress from None: t=15.829740333370864, value=k, duration=None>
+15.8367 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'trial_no': 6.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 3.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+15.8531 	EXP 	taskcue: autoDraw = False
+15.8531 	EXP 	numbertext: autoDraw = False
+15.8531 	EXP 	text_2: autoDraw = True
+15.9366 	EXP 	Device response: <KeyPress from None: t=15.829740333370864, value=k, duration=0.10430562496185303>
+16.3531 	INFO 	Keyboard events cleared
+16.3531 	EXP 	text_2: autoDraw = False
+16.3531 	EXP 	text_2: autoDraw = False
+16.3531 	EXP 	taskcue: text = 'ODD / EVEN'
+16.3531 	EXP 	numbertext: height = np.float64(0.05)
+16.3531 	EXP 	numbertext: height = np.float64(0.05)
+16.3531 	EXP 	numbertext: height = np.float64(0.05)
+16.3531 	EXP 	numbertext: text = 3.0
+16.3531 	EXP 	taskcue: autoDraw = True
+16.3531 	EXP 	numbertext: autoDraw = True
+16.8255 	DATA 	Keypress: a
+16.8367 	EXP 	Device response: <KeyPress from None: t=16.822622375038918, value=a, duration=None>
+16.8367 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'trial_no': 7.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 4.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+16.8531 	EXP 	taskcue: autoDraw = False
+16.8531 	EXP 	numbertext: autoDraw = False
+16.8531 	EXP 	text_2: autoDraw = True
+16.9532 	EXP 	Device response: <KeyPress from None: t=16.822622375038918, value=a, duration=0.12030633329413831>
+17.3531 	INFO 	Keyboard events cleared
+17.3530 	EXP 	text_2: autoDraw = False
+17.3530 	EXP 	text_2: autoDraw = False
+17.3530 	EXP 	taskcue: text = 'ODD / EVEN'
+17.3530 	EXP 	numbertext: height = np.float64(0.05)
+17.3530 	EXP 	numbertext: height = np.float64(0.05)
+17.3530 	EXP 	numbertext: height = np.float64(0.05)
+17.3530 	EXP 	numbertext: text = 4.0
+17.3530 	EXP 	taskcue: autoDraw = True
+17.3530 	EXP 	numbertext: autoDraw = True
+18.0132 	DATA 	Keypress: k
+18.0200 	EXP 	Device response: <KeyPress from None: t=18.007729250006378, value=k, duration=None>
+18.0201 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'trial_no': 8.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 6.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+18.0365 	EXP 	taskcue: autoDraw = False
+18.0365 	EXP 	numbertext: autoDraw = False
+18.0365 	EXP 	text_2: autoDraw = True
+18.1200 	EXP 	Device response: <KeyPress from None: t=18.007729250006378, value=k, duration=0.1082739167031832>
+18.5364 	INFO 	Keyboard events cleared
+18.5364 	EXP 	text_2: autoDraw = False
+18.5364 	EXP 	text_2: autoDraw = False
+18.5364 	EXP 	taskcue: text = 'ODD / EVEN'
+18.5364 	EXP 	numbertext: height = np.float64(0.05)
+18.5364 	EXP 	numbertext: height = np.float64(0.05)
+18.5364 	EXP 	numbertext: height = np.float64(0.05)
+18.5364 	EXP 	numbertext: text = 6.0
+18.5364 	EXP 	taskcue: autoDraw = True
+18.5364 	EXP 	numbertext: autoDraw = True
+19.2368 	EXP 	Device response: <KeyPress from None: t=19.2356223333627, value=k, duration=None>
+19.2369 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'trial_no': 9.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 1.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+19.2409 	DATA 	Keypress: k
+19.2532 	EXP 	taskcue: autoDraw = False
+19.2532 	EXP 	numbertext: autoDraw = False
+19.2532 	EXP 	text_2: autoDraw = True
+19.3532 	EXP 	Device response: <KeyPress from None: t=19.2356223333627, value=k, duration=0.11533808335661888>
+19.7531 	INFO 	Keyboard events cleared
+19.7530 	EXP 	text_2: autoDraw = False
+19.7530 	EXP 	text_2: autoDraw = False
+19.7530 	EXP 	taskcue: text = 'ODD / EVEN'
+19.7530 	EXP 	numbertext: height = np.float64(0.05)
+19.7530 	EXP 	numbertext: height = np.float64(0.05)
+19.7530 	EXP 	numbertext: height = np.float64(0.05)
+19.7530 	EXP 	numbertext: text = 1.0
+19.7530 	EXP 	taskcue: autoDraw = True
+19.7530 	EXP 	numbertext: autoDraw = True
+20.4366 	EXP 	Device response: <KeyPress from None: t=20.435689000005368, value=a, duration=None>
+20.4367 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'trial_no': 10.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 7.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+20.4406 	DATA 	Keypress: a
+20.4531 	EXP 	taskcue: autoDraw = False
+20.4531 	EXP 	numbertext: autoDraw = False
+20.4531 	EXP 	text_2: autoDraw = True
+20.6199 	EXP 	Device response: <KeyPress from None: t=20.435689000005368, value=a, duration=0.16819774999748915>
+20.9531 	INFO 	Keyboard events cleared
+20.9530 	EXP 	text_2: autoDraw = False
+20.9530 	EXP 	text_2: autoDraw = False
+20.9530 	EXP 	taskcue: text = 'ODD / EVEN'
+20.9530 	EXP 	numbertext: height = np.float64(0.05)
+20.9530 	EXP 	numbertext: height = np.float64(0.05)
+20.9530 	EXP 	numbertext: height = np.float64(0.05)
+20.9530 	EXP 	numbertext: text = 7.0
+20.9530 	EXP 	taskcue: autoDraw = True
+20.9530 	EXP 	numbertext: autoDraw = True
+22.0834 	DATA 	Keypress: a
+22.0867 	EXP 	Device response: <KeyPress from None: t=22.079602875048295, value=a, duration=None>
+22.0868 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'trial_no': 11.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 4.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+22.1031 	EXP 	taskcue: autoDraw = False
+22.1031 	EXP 	numbertext: autoDraw = False
+22.1031 	EXP 	text_2: autoDraw = True
+22.2200 	EXP 	Device response: <KeyPress from None: t=22.079602875048295, value=a, duration=0.12837491661775857>
+22.6031 	INFO 	Keyboard events cleared
+22.6031 	EXP 	text_2: autoDraw = False
+22.6031 	EXP 	text_2: autoDraw = False
+22.6031 	EXP 	taskcue: text = 'ODD / EVEN'
+22.6031 	EXP 	numbertext: height = np.float64(0.05)
+22.6031 	EXP 	numbertext: height = np.float64(0.05)
+22.6031 	EXP 	numbertext: height = np.float64(0.05)
+22.6031 	EXP 	numbertext: text = 4.0
+22.6031 	EXP 	taskcue: autoDraw = True
+22.6031 	EXP 	numbertext: autoDraw = True
+23.3322 	DATA 	Keypress: k
+23.3364 	EXP 	Device response: <KeyPress from None: t=23.327578208351042, value=k, duration=None>
+23.3365 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'trial_no': 12.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 3.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+23.3531 	EXP 	taskcue: autoDraw = False
+23.3531 	EXP 	numbertext: autoDraw = False
+23.3531 	EXP 	text_2: autoDraw = True
+23.4866 	EXP 	Device response: <KeyPress from None: t=23.327578208351042, value=k, duration=0.15228591667255387>
+23.8531 	INFO 	Keyboard events cleared
+23.8531 	EXP 	text_2: autoDraw = False
+23.8531 	EXP 	text_2: autoDraw = False
+23.8531 	EXP 	taskcue: text = 'ODD / EVEN'
+23.8531 	EXP 	numbertext: height = np.float64(0.05)
+23.8531 	EXP 	numbertext: height = np.float64(0.05)
+23.8531 	EXP 	numbertext: height = np.float64(0.05)
+23.8531 	EXP 	numbertext: text = 3.0
+23.8531 	EXP 	taskcue: autoDraw = True
+23.8531 	EXP 	numbertext: autoDraw = True
+24.4822 	DATA 	Keypress: k
+24.4864 	EXP 	Device response: <KeyPress from None: t=24.47758674999932, value=k, duration=None>
+24.4865 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'trial_no': 13.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 5.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+24.5030 	EXP 	taskcue: autoDraw = False
+24.5030 	EXP 	numbertext: autoDraw = False
+24.5030 	EXP 	text_2: autoDraw = True
+24.6365 	EXP 	Device response: <KeyPress from None: t=24.47758674999932, value=k, duration=0.14425879169721156>
+25.0031 	INFO 	Keyboard events cleared
+25.0031 	EXP 	text_2: autoDraw = False
+25.0031 	EXP 	text_2: autoDraw = False
+25.0031 	EXP 	taskcue: text = 'ODD / EVEN'
+25.0031 	EXP 	numbertext: height = np.float64(0.05)
+25.0031 	EXP 	numbertext: height = np.float64(0.05)
+25.0031 	EXP 	numbertext: height = np.float64(0.05)
+25.0031 	EXP 	numbertext: text = 5.0
+25.0031 	EXP 	taskcue: autoDraw = True
+25.0031 	EXP 	numbertext: autoDraw = True
+26.1003 	DATA 	Keypress: a
+26.1033 	EXP 	Device response: <KeyPress from None: t=26.096592625021003, value=a, duration=None>
+26.1033 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'trial_no': 14.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 2.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+26.1197 	EXP 	taskcue: autoDraw = False
+26.1197 	EXP 	numbertext: autoDraw = False
+26.1197 	EXP 	text_2: autoDraw = True
+26.2366 	EXP 	Device response: <KeyPress from None: t=26.096592625021003, value=a, duration=0.1282307916553691>
+26.6197 	INFO 	Keyboard events cleared
+26.6197 	EXP 	text_2: autoDraw = False
+26.6197 	EXP 	text_2: autoDraw = False
+26.6197 	EXP 	taskcue: text = 'ODD / EVEN'
+26.6197 	EXP 	numbertext: height = np.float64(0.05)
+26.6197 	EXP 	numbertext: height = np.float64(0.05)
+26.6197 	EXP 	numbertext: height = np.float64(0.05)
+26.6197 	EXP 	numbertext: text = 2.0
+26.6197 	EXP 	taskcue: autoDraw = True
+26.6197 	EXP 	numbertext: autoDraw = True
+27.1653 	DATA 	Keypress: k
+27.1700 	EXP 	Device response: <KeyPress from None: t=27.161484875017777, value=k, duration=None>
+27.1701 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'trial_no': 15.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 9.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+27.1864 	EXP 	taskcue: autoDraw = False
+27.1864 	EXP 	numbertext: autoDraw = False
+27.1864 	EXP 	text_2: autoDraw = True
+27.2699 	EXP 	Device response: <KeyPress from None: t=27.161484875017777, value=k, duration=0.10430708335479721>
+27.6864 	INFO 	Keyboard events cleared
+27.6863 	EXP 	text_2: autoDraw = False
+27.6863 	EXP 	text_2: autoDraw = False
+27.6863 	EXP 	taskcue: text = 'ODD / EVEN'
+27.6863 	EXP 	numbertext: height = np.float64(0.05)
+27.6863 	EXP 	numbertext: height = np.float64(0.05)
+27.6863 	EXP 	numbertext: height = np.float64(0.05)
+27.6863 	EXP 	numbertext: text = 9.0
+27.6863 	EXP 	taskcue: autoDraw = True
+27.6863 	EXP 	numbertext: autoDraw = True
+28.6255 	DATA 	Keypress: a
+28.6366 	EXP 	Device response: <KeyPress from None: t=28.62248841667315, value=a, duration=None>
+28.6367 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'trial_no': 16.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 7.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+28.6531 	EXP 	taskcue: autoDraw = False
+28.6531 	EXP 	numbertext: autoDraw = False
+28.6531 	EXP 	text_2: autoDraw = True
+28.7700 	EXP 	Device response: <KeyPress from None: t=28.62248841667315, value=a, duration=0.13631270837504417>
+29.1531 	INFO 	Keyboard events cleared
+29.1531 	EXP 	text_2: autoDraw = False
+29.1531 	EXP 	text_2: autoDraw = False
+29.1531 	EXP 	taskcue: text = 'ODD / EVEN'
+29.1531 	EXP 	numbertext: height = np.float64(0.05)
+29.1531 	EXP 	numbertext: height = np.float64(0.05)
+29.1531 	EXP 	numbertext: height = np.float64(0.05)
+29.1531 	EXP 	numbertext: text = 7.0
+29.1531 	EXP 	taskcue: autoDraw = True
+29.1531 	EXP 	numbertext: autoDraw = True
+30.0981 	DATA 	Keypress: a
+30.1033 	EXP 	Device response: <KeyPress from None: t=30.09441812505247, value=a, duration=None>
+30.1033 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'trial_no': 17.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 2.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+30.1197 	EXP 	taskcue: autoDraw = False
+30.1197 	EXP 	numbertext: autoDraw = False
+30.1197 	EXP 	text_2: autoDraw = True
+30.2533 	EXP 	Device response: <KeyPress from None: t=30.09441812505247, value=a, duration=0.1442667916417122>
+30.6197 	INFO 	Keyboard events cleared
+30.6197 	EXP 	text_2: autoDraw = False
+30.6197 	EXP 	text_2: autoDraw = False
+30.6197 	EXP 	taskcue: text = 'ODD / EVEN'
+30.6197 	EXP 	numbertext: height = np.float64(0.05)
+30.6197 	EXP 	numbertext: height = np.float64(0.05)
+30.6197 	EXP 	numbertext: height = np.float64(0.05)
+30.6197 	EXP 	numbertext: text = 2.0
+30.6197 	EXP 	taskcue: autoDraw = True
+30.6197 	EXP 	numbertext: autoDraw = True
+31.6631 	DATA 	Keypress: k
+31.6700 	EXP 	Device response: <KeyPress from None: t=31.659328375011683, value=k, duration=None>
+31.6701 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'trial_no': 18.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 7.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+31.6864 	EXP 	taskcue: autoDraw = False
+31.6864 	EXP 	numbertext: autoDraw = False
+31.6864 	EXP 	text_2: autoDraw = True
+31.8200 	EXP 	Device response: <KeyPress from None: t=31.659328375011683, value=k, duration=0.14432591665536165>
+32.1864 	INFO 	Keyboard events cleared
+32.1864 	EXP 	text_2: autoDraw = False
+32.1864 	EXP 	text_2: autoDraw = False
+32.1864 	EXP 	taskcue: text = 'ODD / EVEN'
+32.1864 	EXP 	numbertext: height = np.float64(0.05)
+32.1864 	EXP 	numbertext: height = np.float64(0.05)
+32.1864 	EXP 	numbertext: height = np.float64(0.05)
+32.1864 	EXP 	numbertext: text = 7.0
+32.1864 	EXP 	taskcue: autoDraw = True
+32.1864 	EXP 	numbertext: autoDraw = True
+33.0510 	DATA 	Keypress: a
+33.0533 	EXP 	Device response: <KeyPress from None: t=33.046361916698515, value=a, duration=None>
+33.0533 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'trial_no': 19.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 9.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+33.0697 	EXP 	taskcue: autoDraw = False
+33.0697 	EXP 	numbertext: autoDraw = False
+33.0697 	EXP 	text_2: autoDraw = True
+33.2200 	EXP 	Device response: <KeyPress from None: t=33.046361916698515, value=a, duration=0.17228116665501148>
+33.5697 	INFO 	Keyboard events cleared
+33.5697 	EXP 	text_2: autoDraw = False
+33.5697 	EXP 	text_2: autoDraw = False
+33.5697 	EXP 	taskcue: text = 'ODD / EVEN'
+33.5697 	EXP 	numbertext: height = np.float64(0.05)
+33.5697 	EXP 	numbertext: height = np.float64(0.05)
+33.5697 	EXP 	numbertext: height = np.float64(0.05)
+33.5697 	EXP 	numbertext: text = 9.0
+33.5697 	EXP 	taskcue: autoDraw = True
+33.5697 	EXP 	numbertext: autoDraw = True
+35.5461 	DATA 	Keypress: a
+35.5534 	EXP 	Device response: <KeyPress from None: t=35.5422313750023, value=a, duration=None>
+35.5534 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'trial_no': 20.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 4.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+35.5697 	EXP 	taskcue: autoDraw = False
+35.5697 	EXP 	numbertext: autoDraw = False
+35.5697 	EXP 	text_2: autoDraw = True
+35.6700 	EXP 	Device response: <KeyPress from None: t=35.5422313750023, value=a, duration=0.12438770837616175>
+36.0697 	INFO 	Keyboard events cleared
+36.0697 	EXP 	text_2: autoDraw = False
+36.0697 	EXP 	text_2: autoDraw = False
+36.0697 	EXP 	taskcue: text = 'ODD / EVEN'
+36.0697 	EXP 	numbertext: height = np.float64(0.05)
+36.0697 	EXP 	numbertext: height = np.float64(0.05)
+36.0697 	EXP 	numbertext: height = np.float64(0.05)
+36.0697 	EXP 	numbertext: text = 4.0
+36.0697 	EXP 	taskcue: autoDraw = True
+36.0697 	EXP 	numbertext: autoDraw = True
+37.0329 	DATA 	Keypress: k
+37.0367 	EXP 	Device response: <KeyPress from None: t=37.02826912503224, value=k, duration=None>
+37.0367 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'trial_no': 21.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 8.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+37.0530 	EXP 	taskcue: autoDraw = False
+37.0530 	EXP 	numbertext: autoDraw = False
+37.0530 	EXP 	text_2: autoDraw = True
+37.1865 	EXP 	Device response: <KeyPress from None: t=37.02826912503224, value=k, duration=0.15633629163494334>
+37.5532 	INFO 	Keyboard events cleared
+37.5532 	EXP 	text_2: autoDraw = False
+37.5532 	EXP 	text_2: autoDraw = False
+37.5532 	EXP 	taskcue: text = 'ODD / EVEN'
+37.5532 	EXP 	numbertext: height = np.float64(0.05)
+37.5532 	EXP 	numbertext: height = np.float64(0.05)
+37.5532 	EXP 	numbertext: height = np.float64(0.05)
+37.5532 	EXP 	numbertext: text = 8.0
+37.5532 	EXP 	taskcue: autoDraw = True
+37.5532 	EXP 	numbertext: autoDraw = True
+38.2519 	DATA 	Keypress: k
+38.2543 	EXP 	Device response: <KeyPress from None: t=38.24729383335216, value=k, duration=None>
+38.2543 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'trial_no': 22.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 5.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+38.2698 	EXP 	taskcue: autoDraw = False
+38.2698 	EXP 	numbertext: autoDraw = False
+38.2698 	EXP 	text_2: autoDraw = True
+38.4367 	EXP 	Device response: <KeyPress from None: t=38.24729383335216, value=k, duration=0.1842774166725576>
+38.7698 	INFO 	Keyboard events cleared
+38.7698 	EXP 	text_2: autoDraw = False
+38.7698 	EXP 	text_2: autoDraw = False
+38.7698 	EXP 	taskcue: text = 'ODD / EVEN'
+38.7698 	EXP 	numbertext: height = np.float64(0.05)
+38.7698 	EXP 	numbertext: height = np.float64(0.05)
+38.7698 	EXP 	numbertext: height = np.float64(0.05)
+38.7698 	EXP 	numbertext: text = 5.0
+38.7698 	EXP 	taskcue: autoDraw = True
+38.7698 	EXP 	numbertext: autoDraw = True
+39.3700 	EXP 	Device response: <KeyPress from None: t=39.36621270835167, value=a, duration=None>
+39.3700 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'trial_no': 23.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 3.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+39.3726 	DATA 	Keypress: a
+39.3864 	EXP 	taskcue: autoDraw = False
+39.3864 	EXP 	numbertext: autoDraw = False
+39.3864 	EXP 	text_2: autoDraw = True
+39.5532 	EXP 	Device response: <KeyPress from None: t=39.36621270835167, value=a, duration=0.18425116664730012>
+39.8864 	INFO 	Keyboard events cleared
+39.8864 	EXP 	text_2: autoDraw = False
+39.8864 	EXP 	text_2: autoDraw = False
+39.8864 	EXP 	taskcue: text = 'ODD / EVEN'
+39.8864 	EXP 	numbertext: height = np.float64(0.05)
+39.8864 	EXP 	numbertext: height = np.float64(0.05)
+39.8864 	EXP 	numbertext: height = np.float64(0.05)
+39.8864 	EXP 	numbertext: text = 3.0
+39.8864 	EXP 	taskcue: autoDraw = True
+39.8864 	EXP 	numbertext: autoDraw = True
+40.6083 	DATA 	Keypress: a
+40.6201 	EXP 	Device response: <KeyPress from None: t=40.605186666711234, value=a, duration=None>
+40.6201 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'trial_no': 24.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 8.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+40.6365 	EXP 	taskcue: autoDraw = False
+40.6365 	EXP 	numbertext: autoDraw = False
+40.6365 	EXP 	text_2: autoDraw = True
+40.7699 	EXP 	Device response: <KeyPress from None: t=40.605186666711234, value=a, duration=0.16429608332691714>
+41.1365 	INFO 	Keyboard events cleared
+41.1364 	EXP 	text_2: autoDraw = False
+41.1364 	EXP 	text_2: autoDraw = False
+41.1364 	EXP 	taskcue: text = 'ODD / EVEN'
+41.1364 	EXP 	numbertext: height = np.float64(0.05)
+41.1364 	EXP 	numbertext: height = np.float64(0.05)
+41.1364 	EXP 	numbertext: height = np.float64(0.05)
+41.1364 	EXP 	numbertext: text = 8.0
+41.1364 	EXP 	taskcue: autoDraw = True
+41.1364 	EXP 	numbertext: autoDraw = True
+41.6780 	DATA 	Keypress: k
+41.6866 	EXP 	Device response: <KeyPress from None: t=41.67421433335403, value=k, duration=None>
+41.6867 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'trial_no': 25.0, 'condition': 'Pure', 'task': 'odd_even', 'number': 2.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+41.7031 	EXP 	taskcue: autoDraw = False
+41.7031 	EXP 	numbertext: autoDraw = False
+41.7031 	EXP 	text_2: autoDraw = True
+41.8366 	EXP 	Device response: <KeyPress from None: t=41.67421433335403, value=k, duration=0.15619270835304633>
+42.2032 	INFO 	Keyboard events cleared
+42.2031 	EXP 	text_2: autoDraw = False
+42.2031 	EXP 	text_2: autoDraw = False
+42.2031 	EXP 	taskcue: text = 'ODD / EVEN'
+42.2031 	EXP 	numbertext: height = np.float64(0.05)
+42.2031 	EXP 	numbertext: height = np.float64(0.05)
+42.2031 	EXP 	numbertext: height = np.float64(0.05)
+42.2031 	EXP 	numbertext: text = 2.0
+42.2031 	EXP 	taskcue: autoDraw = True
+42.2031 	EXP 	numbertext: autoDraw = True
+42.9977 	DATA 	Keypress: k
+43.0034 	EXP 	Device response: <KeyPress from None: t=42.99309375003213, value=k, duration=None>
+43.0034 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'trial_no': 26.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 6.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+43.0197 	EXP 	taskcue: autoDraw = False
+43.0197 	EXP 	numbertext: autoDraw = False
+43.0197 	EXP 	text_2: autoDraw = True
+43.1533 	EXP 	Device response: <KeyPress from None: t=42.99309375003213, value=k, duration=0.14438112499192357>
+43.5198 	INFO 	Keyboard events cleared
+43.5198 	EXP 	text_2: autoDraw = False
+43.5198 	EXP 	text_2: autoDraw = False
+43.5198 	EXP 	taskcue: text = 'ODD / EVEN'
+43.5198 	EXP 	numbertext: height = np.float64(0.05)
+43.5198 	EXP 	numbertext: height = np.float64(0.05)
+43.5198 	EXP 	numbertext: height = np.float64(0.05)
+43.5198 	EXP 	numbertext: text = 6.0
+43.5198 	EXP 	taskcue: autoDraw = True
+43.5198 	EXP 	numbertext: autoDraw = True
+44.1808 	DATA 	Keypress: k
+44.1867 	EXP 	Device response: <KeyPress from None: t=44.17713770834962, value=k, duration=None>
+44.1867 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'trial_no': 27.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 6.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+44.2031 	EXP 	taskcue: autoDraw = False
+44.2031 	EXP 	numbertext: autoDraw = False
+44.2031 	EXP 	text_2: autoDraw = True
+44.3366 	EXP 	Device response: <KeyPress from None: t=44.17713770834962, value=k, duration=0.14832245832076296>
+44.7031 	INFO 	Keyboard events cleared
+44.7031 	EXP 	text_2: autoDraw = False
+44.7031 	EXP 	text_2: autoDraw = False
+44.7031 	EXP 	taskcue: text = 'ODD / EVEN'
+44.7031 	EXP 	numbertext: height = np.float64(0.05)
+44.7031 	EXP 	numbertext: height = np.float64(0.05)
+44.7031 	EXP 	numbertext: height = np.float64(0.05)
+44.7031 	EXP 	numbertext: text = 6.0
+44.7031 	EXP 	taskcue: autoDraw = True
+44.7031 	EXP 	numbertext: autoDraw = True
+44.9936 	DATA 	Keypress: k
+45.0033 	EXP 	Device response: <KeyPress from None: t=44.98914091667393, value=k, duration=None>
+45.0034 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'trial_no': 28.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 2.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+45.0197 	EXP 	taskcue: autoDraw = False
+45.0197 	EXP 	numbertext: autoDraw = False
+45.0197 	EXP 	text_2: autoDraw = True
+45.1700 	EXP 	Device response: <KeyPress from None: t=44.98914091667393, value=k, duration=0.16419145837426186>
+45.5198 	INFO 	Keyboard events cleared
+45.5197 	EXP 	text_2: autoDraw = False
+45.5197 	EXP 	text_2: autoDraw = False
+45.5197 	EXP 	taskcue: text = 'ODD / EVEN'
+45.5197 	EXP 	numbertext: height = np.float64(0.05)
+45.5197 	EXP 	numbertext: height = np.float64(0.05)
+45.5197 	EXP 	numbertext: height = np.float64(0.05)
+45.5197 	EXP 	numbertext: text = 2.0
+45.5197 	EXP 	taskcue: autoDraw = True
+45.5197 	EXP 	numbertext: autoDraw = True
+46.6033 	EXP 	Device response: <KeyPress from None: t=46.60107316670474, value=k, duration=None>
+46.6034 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'trial_no': 29.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 2.0, 'correct_key': 'n', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+46.6070 	DATA 	Keypress: k
+46.6198 	EXP 	taskcue: autoDraw = False
+46.6198 	EXP 	numbertext: autoDraw = False
+46.6198 	EXP 	text_2: autoDraw = True
+46.7700 	EXP 	Device response: <KeyPress from None: t=46.60107316670474, value=k, duration=0.1562972916290164>
+47.1198 	INFO 	Keyboard events cleared
+47.1198 	EXP 	text_2: autoDraw = False
+47.1198 	EXP 	text_2: autoDraw = False
+47.1198 	EXP 	taskcue: height = np.float64(0.05)
+47.1198 	EXP 	taskcue: height = np.float64(0.05)
+47.1198 	EXP 	taskcue: height = np.float64(0.05)
+47.1198 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+47.1198 	EXP 	numbertext: height = np.float64(0.05)
+47.1198 	EXP 	numbertext: height = np.float64(0.05)
+47.1198 	EXP 	numbertext: height = np.float64(0.05)
+47.1198 	EXP 	numbertext: text = 2.0
+47.1198 	EXP 	taskcue: autoDraw = True
+47.1198 	EXP 	numbertext: autoDraw = True
+48.4583 	DATA 	Keypress: n
+48.4702 	EXP 	Device response: <KeyPress from None: t=48.45404687500559, value=n, duration=None>
+48.4703 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'trial_no': 30.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 8.0, 'correct_key': 'm', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+48.4864 	EXP 	taskcue: autoDraw = False
+48.4864 	EXP 	numbertext: autoDraw = False
+48.4864 	EXP 	text_2: autoDraw = True
+48.6700 	EXP 	Device response: <KeyPress from None: t=48.45404687500559, value=n, duration=0.20430662500439212>
+48.9866 	INFO 	Keyboard events cleared
+48.9866 	EXP 	text_2: autoDraw = False
+48.9866 	EXP 	text_2: autoDraw = False
+48.9866 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+48.9866 	EXP 	numbertext: height = np.float64(0.05)
+48.9866 	EXP 	numbertext: height = np.float64(0.05)
+48.9866 	EXP 	numbertext: height = np.float64(0.05)
+48.9866 	EXP 	numbertext: text = 8.0
+48.9866 	EXP 	taskcue: autoDraw = True
+48.9866 	EXP 	numbertext: autoDraw = True
+50.6868 	EXP 	Device response: <KeyPress from None: t=50.68198479170678, value=m, duration=None>
+50.6868 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'trial_no': 31.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 3.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+50.6875 	DATA 	Keypress: m
+50.7031 	EXP 	taskcue: autoDraw = False
+50.7031 	EXP 	numbertext: autoDraw = False
+50.7031 	EXP 	text_2: autoDraw = True
+50.9034 	EXP 	Device response: <KeyPress from None: t=50.68198479170678, value=m, duration=0.21227545832516626>
+51.2031 	INFO 	Keyboard events cleared
+51.2031 	EXP 	text_2: autoDraw = False
+51.2031 	EXP 	text_2: autoDraw = False
+51.2031 	EXP 	taskcue: height = np.float64(0.05)
+51.2031 	EXP 	taskcue: height = np.float64(0.05)
+51.2031 	EXP 	taskcue: height = np.float64(0.05)
+51.2031 	EXP 	taskcue: text = 'ODD / EVEN'
+51.2031 	EXP 	numbertext: height = np.float64(0.05)
+51.2031 	EXP 	numbertext: height = np.float64(0.05)
+51.2031 	EXP 	numbertext: height = np.float64(0.05)
+51.2031 	EXP 	numbertext: text = 3.0
+51.2031 	EXP 	taskcue: autoDraw = True
+51.2031 	EXP 	numbertext: autoDraw = True
+52.4588 	DATA 	Keypress: a
+52.4700 	EXP 	Device response: <KeyPress from None: t=52.454962291696575, value=a, duration=None>
+52.4701 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'trial_no': 32.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 3.0, 'correct_key': 'n', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+52.4864 	EXP 	taskcue: autoDraw = False
+52.4864 	EXP 	numbertext: autoDraw = False
+52.4864 	EXP 	text_2: autoDraw = True
+52.6534 	EXP 	Device response: <KeyPress from None: t=52.454962291696575, value=a, duration=0.1882460833294317>
+52.9865 	INFO 	Keyboard events cleared
+52.9865 	EXP 	text_2: autoDraw = False
+52.9865 	EXP 	text_2: autoDraw = False
+52.9865 	EXP 	taskcue: height = np.float64(0.05)
+52.9865 	EXP 	taskcue: height = np.float64(0.05)
+52.9865 	EXP 	taskcue: height = np.float64(0.05)
+52.9865 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+52.9865 	EXP 	numbertext: height = np.float64(0.05)
+52.9865 	EXP 	numbertext: height = np.float64(0.05)
+52.9865 	EXP 	numbertext: height = np.float64(0.05)
+52.9865 	EXP 	numbertext: text = 3.0
+52.9865 	EXP 	taskcue: autoDraw = True
+52.9865 	EXP 	numbertext: autoDraw = True
+55.0175 	DATA 	Keypress: m
+55.0200 	EXP 	Device response: <KeyPress from None: t=55.012819541676436, value=m, duration=None>
+55.0201 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'trial_no': 33.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 9.0, 'correct_key': 'm', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+55.0364 	EXP 	taskcue: autoDraw = False
+55.0364 	EXP 	numbertext: autoDraw = False
+55.0364 	EXP 	text_2: autoDraw = True
+55.1866 	EXP 	Device response: <KeyPress from None: t=55.012819541676436, value=m, duration=0.16887066670460626>
+55.5364 	INFO 	Keyboard events cleared
+55.5364 	EXP 	text_2: autoDraw = False
+55.5364 	EXP 	text_2: autoDraw = False
+55.5364 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+55.5364 	EXP 	numbertext: height = np.float64(0.05)
+55.5364 	EXP 	numbertext: height = np.float64(0.05)
+55.5364 	EXP 	numbertext: height = np.float64(0.05)
+55.5364 	EXP 	numbertext: text = 9.0
+55.5364 	EXP 	taskcue: autoDraw = True
+55.5364 	EXP 	numbertext: autoDraw = True
+56.8201 	EXP 	Device response: <KeyPress from None: t=56.81575787503971, value=a, duration=None>
+56.8201 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'trial_no': 34.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 4.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+56.8224 	DATA 	Keypress: a
+56.8365 	EXP 	taskcue: autoDraw = False
+56.8365 	EXP 	numbertext: autoDraw = False
+56.8365 	EXP 	text_2: autoDraw = True
+56.9867 	EXP 	Device response: <KeyPress from None: t=56.81575787503971, value=a, duration=0.16039087501121685>
+57.3365 	INFO 	Keyboard events cleared
+57.3365 	EXP 	text_2: autoDraw = False
+57.3365 	EXP 	text_2: autoDraw = False
+57.3365 	EXP 	taskcue: height = np.float64(0.05)
+57.3365 	EXP 	taskcue: height = np.float64(0.05)
+57.3365 	EXP 	taskcue: height = np.float64(0.05)
+57.3365 	EXP 	taskcue: text = 'ODD / EVEN'
+57.3365 	EXP 	numbertext: height = np.float64(0.05)
+57.3365 	EXP 	numbertext: height = np.float64(0.05)
+57.3365 	EXP 	numbertext: height = np.float64(0.05)
+57.3365 	EXP 	numbertext: text = 4.0
+57.3365 	EXP 	taskcue: autoDraw = True
+57.3365 	EXP 	numbertext: autoDraw = True
+59.2200 	EXP 	Device response: <KeyPress from None: t=59.21685787499882, value=k, duration=None>
+59.2201 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'trial_no': 35.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 6.0, 'correct_key': 'm', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+59.2226 	DATA 	Keypress: k
+59.2365 	EXP 	taskcue: autoDraw = False
+59.2365 	EXP 	numbertext: autoDraw = False
+59.2365 	EXP 	text_2: autoDraw = True
+59.3701 	EXP 	Device response: <KeyPress from None: t=59.21685787499882, value=k, duration=0.15228541666874662>
+59.7365 	INFO 	Keyboard events cleared
+59.7365 	EXP 	text_2: autoDraw = False
+59.7365 	EXP 	text_2: autoDraw = False
+59.7365 	EXP 	taskcue: height = np.float64(0.05)
+59.7365 	EXP 	taskcue: height = np.float64(0.05)
+59.7365 	EXP 	taskcue: height = np.float64(0.05)
+59.7365 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+59.7365 	EXP 	numbertext: height = np.float64(0.05)
+59.7365 	EXP 	numbertext: height = np.float64(0.05)
+59.7365 	EXP 	numbertext: height = np.float64(0.05)
+59.7365 	EXP 	numbertext: text = 6.0
+59.7365 	EXP 	taskcue: autoDraw = True
+59.7365 	EXP 	numbertext: autoDraw = True
+60.9965 	DATA 	Keypress: k
+61.0034 	EXP 	Device response: <KeyPress from None: t=60.99270404170966, value=k, duration=None>
+61.0035 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'trial_no': 36.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 6.0, 'correct_key': 'm', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+61.0198 	EXP 	taskcue: autoDraw = False
+61.0198 	EXP 	numbertext: autoDraw = False
+61.0198 	EXP 	text_2: autoDraw = True
+61.1366 	EXP 	Device response: <KeyPress from None: t=60.99270404170966, value=k, duration=0.14028887497261167>
+61.5198 	INFO 	Keyboard events cleared
+61.5197 	EXP 	text_2: autoDraw = False
+61.5197 	EXP 	text_2: autoDraw = False
+61.5197 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+61.5197 	EXP 	numbertext: height = np.float64(0.05)
+61.5197 	EXP 	numbertext: height = np.float64(0.05)
+61.5197 	EXP 	numbertext: height = np.float64(0.05)
+61.5197 	EXP 	numbertext: text = 6.0
+61.5197 	EXP 	taskcue: autoDraw = True
+61.5197 	EXP 	numbertext: autoDraw = True
+63.6503 	DATA 	Keypress: n
+63.6534 	EXP 	Device response: <KeyPress from None: t=63.64570366666885, value=n, duration=None>
+63.6534 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'trial_no': 37.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 5.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+63.6698 	EXP 	taskcue: autoDraw = False
+63.6698 	EXP 	numbertext: autoDraw = False
+63.6698 	EXP 	text_2: autoDraw = True
+63.7866 	EXP 	Device response: <KeyPress from None: t=63.64570366666885, value=n, duration=0.14032304170541465>
+64.1698 	INFO 	Keyboard events cleared
+64.1698 	EXP 	text_2: autoDraw = False
+64.1698 	EXP 	text_2: autoDraw = False
+64.1698 	EXP 	taskcue: height = np.float64(0.05)
+64.1698 	EXP 	taskcue: height = np.float64(0.05)
+64.1698 	EXP 	taskcue: height = np.float64(0.05)
+64.1698 	EXP 	taskcue: text = 'ODD / EVEN'
+64.1698 	EXP 	numbertext: height = np.float64(0.05)
+64.1698 	EXP 	numbertext: height = np.float64(0.05)
+64.1698 	EXP 	numbertext: height = np.float64(0.05)
+64.1698 	EXP 	numbertext: text = 5.0
+64.1698 	EXP 	taskcue: autoDraw = True
+64.1698 	EXP 	numbertext: autoDraw = True
+66.7034 	EXP 	Device response: <KeyPress from None: t=66.70164137502434, value=a, duration=None>
+66.7035 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'trial_no': 38.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 8.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+66.7070 	DATA 	Keypress: a
+66.7198 	EXP 	taskcue: autoDraw = False
+66.7198 	EXP 	numbertext: autoDraw = False
+66.7198 	EXP 	text_2: autoDraw = True
+66.8367 	EXP 	Device response: <KeyPress from None: t=66.70164137502434, value=a, duration=0.12829083332326263>
+67.2198 	INFO 	Keyboard events cleared
+67.2198 	EXP 	text_2: autoDraw = False
+67.2198 	EXP 	text_2: autoDraw = False
+67.2198 	EXP 	taskcue: text = 'ODD / EVEN'
+67.2198 	EXP 	numbertext: height = np.float64(0.05)
+67.2198 	EXP 	numbertext: height = np.float64(0.05)
+67.2198 	EXP 	numbertext: height = np.float64(0.05)
+67.2198 	EXP 	numbertext: text = 8.0
+67.2198 	EXP 	taskcue: autoDraw = True
+67.2198 	EXP 	numbertext: autoDraw = True
+67.9312 	DATA 	Keypress: k
+67.9365 	EXP 	Device response: <KeyPress from None: t=67.92662070837105, value=k, duration=None>
+67.9366 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'trial_no': 39.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 1.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+67.9531 	EXP 	taskcue: autoDraw = False
+67.9531 	EXP 	numbertext: autoDraw = False
+67.9531 	EXP 	text_2: autoDraw = True
+68.0868 	EXP 	Device response: <KeyPress from None: t=67.92662070837105, value=k, duration=0.15244283335050568>
+68.4532 	INFO 	Keyboard events cleared
+68.4532 	EXP 	text_2: autoDraw = False
+68.4532 	EXP 	taskcue: text = 'ODD / EVEN'
+68.4532 	EXP 	numbertext: height = np.float64(0.05)
+68.4532 	EXP 	numbertext: height = np.float64(0.05)
+68.4532 	EXP 	numbertext: height = np.float64(0.05)
+68.4532 	EXP 	numbertext: text = 1.0
+68.4532 	EXP 	taskcue: autoDraw = True
+68.4532 	EXP 	numbertext: autoDraw = True
+69.0471 	DATA 	Keypress: a
+69.0534 	EXP 	Device response: <KeyPress from None: t=69.04349954170175, value=a, duration=None>
+69.0535 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'trial_no': 40.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 9.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+69.0698 	EXP 	taskcue: autoDraw = False
+69.0698 	EXP 	numbertext: autoDraw = False
+69.0698 	EXP 	text_2: autoDraw = True
+69.2034 	EXP 	Device response: <KeyPress from None: t=69.04349954170175, value=a, duration=0.14440574997570366>
+69.5699 	INFO 	Keyboard events cleared
+69.5698 	EXP 	text_2: autoDraw = False
+69.5698 	EXP 	text_2: autoDraw = False
+69.5698 	EXP 	taskcue: text = 'ODD / EVEN'
+69.5698 	EXP 	numbertext: height = np.float64(0.05)
+69.5698 	EXP 	numbertext: height = np.float64(0.05)
+69.5698 	EXP 	numbertext: height = np.float64(0.05)
+69.5698 	EXP 	numbertext: text = 9.0
+69.5698 	EXP 	taskcue: autoDraw = True
+69.5698 	EXP 	numbertext: autoDraw = True
+70.2343 	DATA 	Keypress: a
+70.2366 	EXP 	Device response: <KeyPress from None: t=70.22961762500927, value=a, duration=None>
+70.2366 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'trial_no': 41.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 8.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+70.2531 	EXP 	taskcue: autoDraw = False
+70.2531 	EXP 	numbertext: autoDraw = False
+70.2531 	EXP 	text_2: autoDraw = True
+70.3533 	EXP 	Device response: <KeyPress from None: t=70.22961762500927, value=a, duration=0.1162799583398737>
+70.7531 	INFO 	Keyboard events cleared
+70.7531 	EXP 	text_2: autoDraw = False
+70.7531 	EXP 	text_2: autoDraw = False
+70.7531 	EXP 	taskcue: text = 'ODD / EVEN'
+70.7531 	EXP 	numbertext: height = np.float64(0.05)
+70.7531 	EXP 	numbertext: height = np.float64(0.05)
+70.7531 	EXP 	numbertext: height = np.float64(0.05)
+70.7531 	EXP 	numbertext: text = 8.0
+70.7531 	EXP 	taskcue: autoDraw = True
+70.7531 	EXP 	numbertext: autoDraw = True
+71.2512 	DATA 	Keypress: k
+71.2534 	EXP 	Device response: <KeyPress from None: t=71.24761162500363, value=k, duration=None>
+71.2534 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'trial_no': 42.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 4.0, 'correct_key': 'n', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+71.2699 	EXP 	taskcue: autoDraw = False
+71.2699 	EXP 	numbertext: autoDraw = False
+71.2699 	EXP 	text_2: autoDraw = True
+71.4201 	EXP 	Device response: <KeyPress from None: t=71.24761162500363, value=k, duration=0.156158541678451>
+71.7699 	INFO 	Keyboard events cleared
+71.7699 	EXP 	text_2: autoDraw = False
+71.7699 	EXP 	text_2: autoDraw = False
+71.7699 	EXP 	taskcue: height = np.float64(0.05)
+71.7699 	EXP 	taskcue: height = np.float64(0.05)
+71.7699 	EXP 	taskcue: height = np.float64(0.05)
+71.7699 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+71.7699 	EXP 	numbertext: height = np.float64(0.05)
+71.7699 	EXP 	numbertext: height = np.float64(0.05)
+71.7699 	EXP 	numbertext: height = np.float64(0.05)
+71.7699 	EXP 	numbertext: text = 4.0
+71.7699 	EXP 	taskcue: autoDraw = True
+71.7699 	EXP 	numbertext: autoDraw = True
+73.8598 	DATA 	Keypress: n
+73.8700 	EXP 	Device response: <KeyPress from None: t=73.8554742083652, value=n, duration=None>
+73.8701 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'trial_no': 43.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 1.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+73.8865 	EXP 	taskcue: autoDraw = False
+73.8865 	EXP 	numbertext: autoDraw = False
+73.8865 	EXP 	text_2: autoDraw = True
+74.0366 	EXP 	Device response: <KeyPress from None: t=73.8554742083652, value=n, duration=0.1762903750059195>
+74.3866 	INFO 	Keyboard events cleared
+74.3865 	EXP 	text_2: autoDraw = False
+74.3865 	EXP 	text_2: autoDraw = False
+74.3865 	EXP 	taskcue: height = np.float64(0.05)
+74.3865 	EXP 	taskcue: height = np.float64(0.05)
+74.3865 	EXP 	taskcue: height = np.float64(0.05)
+74.3865 	EXP 	taskcue: text = 'ODD / EVEN'
+74.3865 	EXP 	numbertext: height = np.float64(0.05)
+74.3865 	EXP 	numbertext: height = np.float64(0.05)
+74.3865 	EXP 	numbertext: height = np.float64(0.05)
+74.3865 	EXP 	numbertext: text = 1.0
+74.3865 	EXP 	taskcue: autoDraw = True
+74.3865 	EXP 	numbertext: autoDraw = True
+77.9014 	DATA 	Keypress: a
+77.9036 	EXP 	Device response: <KeyPress from None: t=77.8963964167051, value=a, duration=None>
+77.9037 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'trial_no': 44.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 8.0, 'correct_key': 'm', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+77.9200 	EXP 	taskcue: autoDraw = False
+77.9200 	EXP 	numbertext: autoDraw = False
+77.9200 	EXP 	text_2: autoDraw = True
+78.0702 	EXP 	Device response: <KeyPress from None: t=77.8963964167051, value=a, duration=0.17229404166573659>
+78.4199 	INFO 	Keyboard events cleared
+78.4199 	EXP 	text_2: autoDraw = False
+78.4199 	EXP 	text_2: autoDraw = False
+78.4199 	EXP 	taskcue: height = np.float64(0.05)
+78.4199 	EXP 	taskcue: height = np.float64(0.05)
+78.4199 	EXP 	taskcue: height = np.float64(0.05)
+78.4199 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+78.4199 	EXP 	numbertext: height = np.float64(0.05)
+78.4199 	EXP 	numbertext: height = np.float64(0.05)
+78.4199 	EXP 	numbertext: height = np.float64(0.05)
+78.4199 	EXP 	numbertext: text = 8.0
+78.4199 	EXP 	taskcue: autoDraw = True
+78.4199 	EXP 	numbertext: autoDraw = True
+82.9076 	DATA 	Keypress: m
+82.9201 	EXP 	Device response: <KeyPress from None: t=82.9036767083453, value=m, duration=None>
+82.9202 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'trial_no': 45.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 3.0, 'correct_key': 'a', 'task_cue': 'ODD / EVEN', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+82.9365 	EXP 	taskcue: autoDraw = False
+82.9365 	EXP 	numbertext: autoDraw = False
+82.9365 	EXP 	text_2: autoDraw = True
+83.0367 	EXP 	Device response: <KeyPress from None: t=82.9036767083453, value=m, duration=0.11790070834103972>
+83.4363 	INFO 	Keyboard events cleared
+83.4363 	EXP 	text_2: autoDraw = False
+83.4363 	EXP 	text_2: autoDraw = False
+83.4363 	EXP 	taskcue: height = np.float64(0.05)
+83.4363 	EXP 	taskcue: height = np.float64(0.05)
+83.4363 	EXP 	taskcue: height = np.float64(0.05)
+83.4363 	EXP 	taskcue: text = 'ODD / EVEN'
+83.4363 	EXP 	numbertext: height = np.float64(0.05)
+83.4363 	EXP 	numbertext: height = np.float64(0.05)
+83.4363 	EXP 	numbertext: height = np.float64(0.05)
+83.4363 	EXP 	numbertext: text = 3.0
+83.4363 	EXP 	taskcue: autoDraw = True
+83.4363 	EXP 	numbertext: autoDraw = True
+85.1702 	EXP 	Device response: <KeyPress from None: t=85.16528237500461, value=a, duration=None>
+85.1702 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'trial_no': 46.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 9.0, 'correct_key': 'm', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+85.1733 	DATA 	Keypress: a
+85.1865 	EXP 	taskcue: autoDraw = False
+85.1865 	EXP 	numbertext: autoDraw = False
+85.1865 	EXP 	text_2: autoDraw = True
+85.2867 	EXP 	Device response: <KeyPress from None: t=85.16528237500461, value=a, duration=0.11231200001202524>
+85.6865 	INFO 	Keyboard events cleared
+85.6865 	EXP 	text_2: autoDraw = False
+85.6865 	EXP 	text_2: autoDraw = False
+85.6865 	EXP 	taskcue: height = np.float64(0.05)
+85.6865 	EXP 	taskcue: height = np.float64(0.05)
+85.6865 	EXP 	taskcue: height = np.float64(0.05)
+85.6865 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+85.6865 	EXP 	numbertext: height = np.float64(0.05)
+85.6865 	EXP 	numbertext: height = np.float64(0.05)
+85.6865 	EXP 	numbertext: height = np.float64(0.05)
+85.6865 	EXP 	numbertext: text = 9.0
+85.6865 	EXP 	taskcue: autoDraw = True
+85.6865 	EXP 	numbertext: autoDraw = True
+87.1744 	DATA 	Keypress: m
+87.1869 	EXP 	Device response: <KeyPress from None: t=87.17123920837184, value=m, duration=None>
+87.1869 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'trial_no': 47.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 7.0, 'correct_key': 'm', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+87.2033 	EXP 	taskcue: autoDraw = False
+87.2033 	EXP 	numbertext: autoDraw = False
+87.2033 	EXP 	text_2: autoDraw = True
+87.2867 	EXP 	Device response: <KeyPress from None: t=87.17123920837184, value=m, duration=0.10028312500799075>
+87.7032 	INFO 	Keyboard events cleared
+87.7032 	EXP 	text_2: autoDraw = False
+87.7032 	EXP 	text_2: autoDraw = False
+87.7032 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+87.7032 	EXP 	numbertext: height = np.float64(0.05)
+87.7032 	EXP 	numbertext: height = np.float64(0.05)
+87.7032 	EXP 	numbertext: height = np.float64(0.05)
+87.7032 	EXP 	numbertext: text = 7.0
+87.7032 	EXP 	taskcue: autoDraw = True
+87.7032 	EXP 	numbertext: autoDraw = True
+88.8534 	EXP 	Device response: <KeyPress from None: t=88.85222570836777, value=m, duration=None>
+88.8535 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'trial_no': 48.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 4.0, 'correct_key': 'n', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+88.8574 	DATA 	Keypress: m
+88.8699 	EXP 	taskcue: autoDraw = False
+88.8699 	EXP 	numbertext: autoDraw = False
+88.8699 	EXP 	text_2: autoDraw = True
+89.0034 	EXP 	Device response: <KeyPress from None: t=88.85222570836777, value=m, duration=0.1442630416713655>
+89.3698 	INFO 	Keyboard events cleared
+89.3698 	EXP 	text_2: autoDraw = False
+89.3698 	EXP 	text_2: autoDraw = False
+89.3698 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+89.3698 	EXP 	numbertext: height = np.float64(0.05)
+89.3698 	EXP 	numbertext: height = np.float64(0.05)
+89.3698 	EXP 	numbertext: height = np.float64(0.05)
+89.3698 	EXP 	numbertext: text = 4.0
+89.3698 	EXP 	taskcue: autoDraw = True
+89.3698 	EXP 	numbertext: autoDraw = True
+90.0259 	DATA 	Keypress: n
+90.0368 	EXP 	Device response: <KeyPress from None: t=90.02307116671, value=n, duration=None>
+90.0368 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'trial_no': 49.0, 'condition': 'Mixed', 'task': 'odd_even', 'number': 2.0, 'correct_key': 'k', 'task_cue': 'ODD / EVEN', 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+90.0532 	EXP 	taskcue: autoDraw = False
+90.0532 	EXP 	numbertext: autoDraw = False
+90.0532 	EXP 	text_2: autoDraw = True
+90.1201 	EXP 	Device response: <KeyPress from None: t=90.02307116671, value=n, duration=0.09242320829071105>
+90.5532 	INFO 	Keyboard events cleared
+90.5532 	EXP 	text_2: autoDraw = False
+90.5532 	EXP 	text_2: autoDraw = False
+90.5532 	EXP 	taskcue: height = np.float64(0.05)
+90.5532 	EXP 	taskcue: height = np.float64(0.05)
+90.5532 	EXP 	taskcue: height = np.float64(0.05)
+90.5532 	EXP 	taskcue: text = 'ODD / EVEN'
+90.5532 	EXP 	numbertext: height = np.float64(0.05)
+90.5532 	EXP 	numbertext: height = np.float64(0.05)
+90.5532 	EXP 	numbertext: height = np.float64(0.05)
+90.5532 	EXP 	numbertext: text = 2.0
+90.5532 	EXP 	taskcue: autoDraw = True
+90.5532 	EXP 	numbertext: autoDraw = True
+91.5327 	DATA 	Keypress: k
+91.5367 	EXP 	Device response: <KeyPress from None: t=91.52905391668901, value=k, duration=None>
+91.5368 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'trial_no': 50.0, 'condition': 'Mixed', 'task': 'greater_less_5', 'number': 2.0, 'correct_key': 'n', 'task_cue': 'GREATER / LESS THAN 5', 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+91.5532 	EXP 	taskcue: autoDraw = False
+91.5532 	EXP 	numbertext: autoDraw = False
+91.5532 	EXP 	text_2: autoDraw = True
+91.6034 	EXP 	Device response: <KeyPress from None: t=91.52905391668901, value=k, duration=0.06427575001725927>
+92.0532 	INFO 	Keyboard events cleared
+92.0532 	EXP 	text_2: autoDraw = False
+92.0532 	EXP 	text_2: autoDraw = False
+92.0532 	EXP 	taskcue: height = np.float64(0.05)
+92.0532 	EXP 	taskcue: height = np.float64(0.05)
+92.0532 	EXP 	taskcue: height = np.float64(0.05)
+92.0532 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+92.0532 	EXP 	numbertext: height = np.float64(0.05)
+92.0532 	EXP 	numbertext: height = np.float64(0.05)
+92.0532 	EXP 	numbertext: height = np.float64(0.05)
+92.0532 	EXP 	numbertext: text = 2.0
+92.0532 	EXP 	taskcue: autoDraw = True
+92.0532 	EXP 	numbertext: autoDraw = True
+94.9632 	DATA 	Keypress: n
+94.9701 	EXP 	Device response: <KeyPress from None: t=94.95904454169795, value=n, duration=None>
+94.9702 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'trial_no': None, 'condition': None, 'task': None, 'number': None, 'correct_key': None, 'task_cue': None, 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+94.9865 	EXP 	taskcue: autoDraw = False
+94.9865 	EXP 	numbertext: autoDraw = False
+94.9865 	EXP 	text_2: autoDraw = True
+95.0368 	EXP 	Device response: <KeyPress from None: t=94.95904454169795, value=n, duration=0.0683759999810718>
+95.4866 	INFO 	Keyboard events cleared
+95.4865 	EXP 	text_2: autoDraw = False
+95.4865 	EXP 	text_2: autoDraw = False
+95.4865 	EXP 	taskcue: height = np.float64(0.05)
+95.4865 	EXP 	taskcue: height = np.float64(0.05)
+95.4865 	EXP 	taskcue: height = np.float64(0.05)
+95.4865 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+95.4865 	EXP 	numbertext: height = np.float64(0.05)
+95.4865 	EXP 	numbertext: height = np.float64(0.05)
+95.4865 	EXP 	numbertext: height = np.float64(0.05)
+95.4865 	EXP 	numbertext: text = '2.0'
+95.4865 	EXP 	taskcue: autoDraw = True
+95.4865 	EXP 	numbertext: autoDraw = True
+96.1414 	DATA 	Keypress: n
+96.1536 	EXP 	Device response: <KeyPress from None: t=96.13702308334177, value=n, duration=None>
+96.1537 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'trial_no': None, 'condition': None, 'task': None, 'number': None, 'correct_key': None, 'task_cue': None, 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+96.1699 	EXP 	taskcue: autoDraw = False
+96.1699 	EXP 	numbertext: autoDraw = False
+96.1699 	EXP 	text_2: autoDraw = True
+96.2701 	EXP 	Device response: <KeyPress from None: t=96.13702308334177, value=n, duration=0.12835658335825428>
+96.6699 	INFO 	Keyboard events cleared
+96.6698 	EXP 	text_2: autoDraw = False
+96.6698 	EXP 	text_2: autoDraw = False
+96.6698 	EXP 	taskcue: height = np.float64(0.05)
+96.6698 	EXP 	taskcue: height = np.float64(0.05)
+96.6698 	EXP 	taskcue: height = np.float64(0.05)
+96.6698 	EXP 	taskcue: text = 'GREATER / LESS THAN 5'
+96.6698 	EXP 	numbertext: height = np.float64(0.05)
+96.6698 	EXP 	numbertext: height = np.float64(0.05)
+96.6698 	EXP 	numbertext: height = np.float64(0.05)
+96.6698 	EXP 	numbertext: text = '2.0'
+96.6698 	EXP 	taskcue: autoDraw = True
+96.6698 	EXP 	numbertext: autoDraw = True
+98.1535 	EXP 	Device response: <KeyPress from None: t=98.15000212501036, value=n, duration=None>
+98.1563 	DATA 	Keypress: n
+98.1699 	EXP 	taskcue: autoDraw = False
+98.1699 	EXP 	numbertext: autoDraw = False
+98.1699 	EXP 	text_3: autoDraw = True
+98.2201 	EXP 	Device response: <KeyPress from None: t=98.15000212501036, value=n, duration=0.06849829165730625>
+101.1699 	EXP 	text_3: autoDraw = False
+101.1699 	EXP 	text_3: autoDraw = False
+101.1700 	EXP 	FINAL JERSILD: status = STOPPED
+101.1778 	INFO 	saved data to '/Users/zealshah/Desktop/data/08_FINAL JERSILD_2026-11-16_13h39.14.320.csv'
+101.1789 	INFO 	saved data to /Users/zealshah/Desktop/data/08_FINAL JERSILD_2026-11-16_13h39.14.320.psydat
+101.3119 	INFO 	Stopping keyboard key buffers.
